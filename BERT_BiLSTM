@@ -18,6 +18,7 @@ from keras.optimizers import RMSprop
 import random
 import tensorflow as tf
 
+
 # Set TensorFlow to use only GPU
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
